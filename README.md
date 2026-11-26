@@ -1,6 +1,6 @@
 # Thiru — portfolio site
 
-A single-page portfolio for **Thiru, Cloud Architect & Agentic AI Specialist**: light editorial design, quantum-computing imagery, a bespoke AI-factory plate, and a Microsoft Teams meeting-request flow.
+A single-page portfolio for **Thiru, Cloud Architect & Agentic AI Specialist**: light editorial design, AI-factory and agentic imagery, and a Microsoft Teams meeting-request flow.
 
 No build step, no framework, no dependencies beyond Google Fonts.
 
@@ -13,10 +13,10 @@ index.html          The page
 styles.css          Design tokens, layout, components
 main.js             Navigation, reveals, active section, booking form
 thanks.html         Confirmation page after a booking request
-assets/             WebP images and one SVG
-  quantum-hall*.webp    hero
-  quantum-chip*.webp    featured project
-  ai-factory.svg        DGX Spark / AI factory band
+assets/             WebP images and SVG illustrations
+  hero-ai-factory.svg   hero: DGX Spark / AI factory
+  quantum-chip*.webp    featured AI processor
+  ai-factory.svg        contact band
   portrait*.webp        profile photo
 README.md
 ```
@@ -94,7 +94,7 @@ Confirm the titles, or remove the rows from the Toolkit section.
 
 ### 6. Social preview (optional)
 
-`og:image` currently points to `assets/quantum-hall.webp`. Some platforms require an absolute URL once hosted — change it to `https://your-domain/assets/quantum-hall.webp`.
+`og:image` currently points to `assets/quantum-chip.webp`. Some platforms require an absolute URL once hosted — change it to `https://your-domain/assets/quantum-chip.webp`.
 
 ---
 
@@ -119,7 +119,7 @@ Confirm the titles, or remove the rows from the Toolkit section.
 
 **Accessibility:** skip link, semantic landmarks, one `h1`, visible focus rings, 44 px minimum controls, labelled form fields, inline errors plus an error summary, descriptive alt text, contrast checked to WCAG AA.
 
-**Imagery:** the quantum hall and processor scenes were generated for this site; the AI-factory band is a custom vector illustration of a DGX-Spark-class system (not a product photograph); the portrait was supplied by Thiru. Replace `assets/ai-factory.svg` with a real product photo whenever you have one.
+**Imagery:** the processor macro was generated for this site; the hero and contact band are custom vector illustrations of a DGX-Spark-class system in an AI factory, with an agent graph in the hero. The portrait was supplied by Thiru. Replace `assets/hero-ai-factory.svg` or `assets/ai-factory.svg` with a real product photo whenever you have one.
 
 ---
 
