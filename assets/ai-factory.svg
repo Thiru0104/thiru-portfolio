@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" role="img" aria-label="A compact AI supercomputer with a woven gold grille on a workbench in a sunlit AI factory, with rows of compute systems behind.">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8F3E7"/>
+      <stop offset="0.62" stop-color="#EFE9DA"/>
+      <stop offset="1" stop-color="#E6DFCE"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.78" cy="0.02" r="0.72">
+      <stop offset="0" stop-color="#FFF7E2" stop-opacity="0.95"/>
+      <stop offset="0.55" stop-color="#FFF3D8" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#FFF3D8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bench" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E9E2D1"/>
+      <stop offset="1" stop-color="#DDD5C1"/>
+    </linearGradient>
+    <linearGradient id="topface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#33382F"/>
+      <stop offset="1" stop-color="#22261F"/>
+    </linearGradient>
+    <linearGradient id="frontface" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#20251E"/>
+      <stop offset="1" stop-color="#141713"/>
+    </linearGradient>
+    <linearGradient id="sideface" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#262B23"/>
+      <stop offset="1" stop-color="#171B15"/>
+    </linearGradient>
+    <pattern id="grille" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#C08A4E" stroke-width="1.4" opacity="0.6"/>
+      <line x1="0" y1="3.5" x2="7" y2="3.5" stroke="#8E5F33" stroke-width="0.7" opacity="0.35"/>
+    </pattern>
+    <filter id="soft" x="-40%" y="-80%" width="180%" height="260%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="softer" x="-40%" y="-80%" width="180%" height="260%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+  </defs>
+
+  <!-- ground -->
+  <rect width="1600" height="700" fill="url(#paper)"/>
+  <rect width="1600" height="700" fill="url(#sun)"/>
+
+  <!-- drafting grid -->
+  <g stroke="#171B15" stroke-opacity="0.055" stroke-width="1">
+    <path d="M80 120V540M160 120V540M240 120V540M320 120V540M400 120V540M480 120V540M560 120V540M640 120V540M720 120V540M800 120V540M880 120V540M960 120V540M1040 120V540M1120 120V540M1200 120V540M1280 120V540M1360 120V540M1440 120V540M1520 120V540"/>
+    <path d="M0 220H1600M0 320H1600M0 420H1600M0 520H1600"/>
+  </g>
+
+  <!-- window, left -->
+  <g>
+    <rect x="40" y="160" width="380" height="300" fill="#FBF6E8" opacity="0.55"/>
+    <rect x="40" y="160" width="380" height="300" fill="none" stroke="#171B15" stroke-opacity="0.12"/>
+    <path d="M230 160V460M40 310H420" stroke="#171B15" stroke-opacity="0.1"/>
+  </g>
+
+  <!-- far rack, right -->
+  <g stroke="#171B15" stroke-opacity="0.2" stroke-width="1.4" fill="none">
+    <path d="M1080 190V536M1520 190V536"/>
+    <path d="M1080 270H1520M1080 370H1520M1080 470H1520"/>
+  </g>
+
+  <!-- compute units on the far rack -->
+  <g opacity="0.55">
+    <g fill="#252A22">
+      <rect x="1104" y="222" width="78" height="46" rx="4"/>
+      <rect x="1200" y="222" width="78" height="46" rx="4"/>
+      <rect x="1296" y="222" width="78" height="46" rx="4"/>
+      <rect x="1392" y="222" width="78" height="46" rx="4"/>
+      <rect x="1104" y="322" width="78" height="46" rx="4"/>
+      <rect x="1200" y="322" width="78" height="46" rx="4"/>
+      <rect x="1296" y="322" width="78" height="46" rx="4"/>
+      <rect x="1392" y="322" width="78" height="46" rx="4"/>
+      <rect x="1104" y="422" width="78" height="46" rx="4"/>
+      <rect x="1200" y="422" width="78" height="46" rx="4"/>
+      <rect x="1296" y="422" width="78" height="46" rx="4"/>
+      <rect x="1392" y="422" width="78" height="46" rx="4"/>
+    </g>
+    <g fill="#C08A4E" opacity="0.7">
+      <rect x="1112" y="256" width="62" height="2"/>
+      <rect x="1208" y="256" width="62" height="2"/>
+      <rect x="1304" y="256" width="62" height="2"/>
+      <rect x="1400" y="256" width="62" height="2"/>
+      <rect x="1112" y="356" width="62" height="2"/>
+      <rect x="1208" y="356" width="62" height="2"/>
+      <rect x="1304" y="356" width="62" height="2"/>
+      <rect x="1400" y="356" width="62" height="2"/>
+      <rect x="1112" y="456" width="62" height="2"/>
+      <rect x="1208" y="456" width="62" height="2"/>
+      <rect x="1304" y="456" width="62" height="2"/>
+      <rect x="1400" y="456" width="62" height="2"/>
+    </g>
+    <g fill="#8FA078">
+      <circle cx="1170" cy="230" r="2.2"/>
+      <circle cx="1266" cy="230" r="2.2"/>
+      <circle cx="1362" cy="230" r="2.2"/>
+      <circle cx="1458" cy="230" r="2.2"/>
+      <circle cx="1170" cy="330" r="2.2"/>
+      <circle cx="1266" cy="330" r="2.2"/>
+      <circle cx="1362" cy="330" r="2.2"/>
+      <circle cx="1458" cy="330" r="2.2"/>
+      <circle cx="1170" cy="430" r="2.2"/>
+      <circle cx="1266" cy="430" r="2.2"/>
+      <circle cx="1362" cy="430" r="2.2"/>
+      <circle cx="1458" cy="430" r="2.2"/>
+    </g>
+  </g>
+
+  <!-- near rack, left -->
+  <g stroke="#171B15" stroke-opacity="0.14" stroke-width="1.2" fill="none">
+    <path d="M70 350V540M420 350V540"/>
+    <path d="M70 420H420M70 500H420"/>
+  </g>
+  <g opacity="0.32">
+    <g fill="#252A22">
+      <rect x="94" y="374" width="72" height="40" rx="3"/>
+      <rect x="186" y="374" width="72" height="40" rx="3"/>
+      <rect x="278" y="374" width="72" height="40" rx="3"/>
+      <rect x="94" y="454" width="72" height="40" rx="3"/>
+      <rect x="186" y="454" width="72" height="40" rx="3"/>
+      <rect x="278" y="454" width="72" height="40" rx="3"/>
+    </g>
+    <g fill="#C08A4E" opacity="0.7">
+      <rect x="100" y="404" width="60" height="2"/>
+      <rect x="192" y="404" width="60" height="2"/>
+      <rect x="284" y="404" width="60" height="2"/>
+      <rect x="100" y="484" width="60" height="2"/>
+      <rect x="192" y="484" width="60" height="2"/>
+      <rect x="284" y="484" width="60" height="2"/>
+    </g>
+  </g>
+
+  <!-- workbench -->
+  <rect x="0" y="520" width="1600" height="180" fill="url(#bench)"/>
+  <path d="M0 520H1600" stroke="#171B15" stroke-opacity="0.22" stroke-width="1.4"/>
+  <path d="M0 536H1600" stroke="#171B15" stroke-opacity="0.06"/>
+
+  <!-- light shaft -->
+  <path d="M1180 0H1600V520H1010Z" fill="#FFF7E2" opacity="0.22"/>
+
+  <!-- device shadow -->
+  <ellipse cx="820" cy="514" rx="240" ry="16" fill="#171B15" opacity="0.16" filter="url(#soft)"/>
+  <ellipse cx="820" cy="522" rx="320" ry="34" fill="#171B15" opacity="0.08" filter="url(#softer)"/>
+  <ellipse cx="800" cy="512" rx="280" ry="18" fill="#FFF7E2" opacity="0.5" filter="url(#soft)"/>
+
+  <!-- compact AI system -->
+  <g transform="translate(800 440) scale(1.08) translate(-800 -440)">
+    <!-- top -->
+    <polygon points="640,360 710,310 1010,310 940,360" fill="url(#topface)"/>
+    <!-- left front edge highlight -->
+    <path d="M640 360L940 360" stroke="#C08A4E" stroke-opacity="0.7" stroke-width="1.4"/>
+    <!-- side -->
+    <polygon points="940,360 1010,310 1010,460 940,510" fill="url(#sideface)"/>
+    <path d="M940 360V510" stroke="#0E100D" stroke-opacity="0.6"/>
+    <!-- front -->
+    <rect x="640" y="360" width="300" height="150" rx="16" fill="url(#frontface)"/>
+    <rect x="640" y="360" width="300" height="150" rx="16" fill="none" stroke="#0E100D" stroke-opacity="0.7" stroke-width="1.5"/>
+    <!-- grille -->
+    <rect x="662" y="380" width="256" height="110" rx="10" fill="url(#grille)"/>
+    <rect x="662" y="380" width="256" height="110" rx="10" fill="none" stroke="#C08A4E" stroke-opacity="0.65" stroke-width="1.2"/>
+    <rect x="662" y="380" width="256" height="110" rx="10" fill="#171B15" opacity="0.08"/>
+    <!-- grille inner shadow -->
+    <path d="M672 386H908" stroke="#0E100D" stroke-opacity="0.45" stroke-width="4"/>
+    <!-- status lights -->
+    <circle cx="904" cy="502" r="3.6" fill="#8FA078"/>
+    <circle cx="920" cy="502" r="3.2" fill="#C08A4E"/>
+    <!-- top vents -->
+    <g stroke="#171B15" stroke-opacity="0.35" stroke-width="1.4">
+      <path d="M690 334L990 334"/>
+      <path d="M700 340L1000 340"/>
+      <path d="M710 346L1010 346"/>
+      <path d="M720 352L1020 352"/>
+    </g>
+    <path d="M710 310L640 360" stroke="#FFF7E2" stroke-opacity="0.18" stroke-width="2"/>
+  </g>
+
+  <!-- cables -->
+  <path d="M1010 462C1060 470 1080 500 1130 520" fill="none" stroke="#171B15" stroke-opacity="0.28" stroke-width="2"/>
+  <path d="M1010 476C1070 492 1090 512 1160 534" fill="none" stroke="#171B15" stroke-opacity="0.18" stroke-width="1.4"/>
+
+  <!-- fern fronds, left -->
+  <g stroke="#5E6C4B" fill="none" stroke-linecap="round">
+    <path d="M120 700C120 640 100 600 62 560" stroke-width="1.6" opacity="0.5"/>
+    <path d="M100 610C82 600 70 600 54 606M108 630C88 622 74 624 60 632M116 650C96 644 82 648 68 656M124 670C104 666 92 670 78 678" stroke-width="1.1" opacity="0.4"/>
+    <path d="M180 700C176 650 158 620 132 590" stroke-width="1.4" opacity="0.4"/>
+    <path d="M166 656C148 646 136 648 124 654M172 674C154 666 142 668 130 674" stroke-width="1" opacity="0.35"/>
+  </g>
+
+  <!-- fern fronds, right -->
+  <g stroke="#5E6C4B" fill="none" stroke-linecap="round">
+    <path d="M1490 700C1490 636 1512 596 1552 558" stroke-width="1.6" opacity="0.45"/>
+    <path d="M1512 614C1530 604 1542 604 1558 610M1504 634C1524 626 1538 628 1552 636M1496 654C1516 648 1530 652 1544 660M1488 674C1508 670 1520 674 1534 682" stroke-width="1.1" opacity="0.35"/>
+  </g>
+
+  <!-- dust -->
+  <g fill="#FFF9E9">
+    <circle cx="1240" cy="120" r="2" opacity="0.7"/>
+    <circle cx="1308" cy="76" r="1.4" opacity="0.6"/>
+    <circle cx="1166" cy="182" r="1.7" opacity="0.5"/>
+    <circle cx="1380" cy="150" r="2.2" opacity="0.5"/>
+    <circle cx="1050" cy="96" r="1.2" opacity="0.5"/>
+    <circle cx="1450" cy="240" r="1.6" opacity="0.4"/>
+  </g>
+</svg>

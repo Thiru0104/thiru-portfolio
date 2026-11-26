@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Request received — Thiru</title>
+<meta name="theme-color" content="#F2EEE3">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;600;700&family=Spectral:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .thanks-page {
+    min-height: 100svh;
+    display: grid;
+    place-items: center;
+    padding: var(--gutter);
+  }
+  .thanks {
+    width: 100%;
+    max-width: 760px;
+    padding: clamp(28px, 5vw, 56px) 0;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  .thanks-brand {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 14px;
+    min-height: 44px;
+    color: var(--ink);
+  }
+  .thanks-brand .brand-name { font-size: 22px; }
+  .thanks-brand span:last-child {
+    font-size: 9.5px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .thanks .eyebrow { margin-top: clamp(28px, 5vw, 52px); }
+  .thanks h1 {
+    max-width: 10ch;
+    margin: 14px 0 22px;
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(48px, 7vw, 84px);
+    line-height: 0.94;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink);
+    text-wrap: balance;
+  }
+  .thanks-lede {
+    max-width: 48ch;
+    font-size: 18px;
+    line-height: 1.62;
+    color: var(--muted);
+  }
+  .thanks-note {
+    max-width: 48ch;
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 1.65;
+    color: var(--muted);
+  }
+  .thanks-note a {
+    color: var(--ink);
+    border-bottom: 1px solid var(--line);
+  }
+  .thanks-note a:hover { color: var(--rust); border-color: var(--rust); }
+  .thanks .btn { margin-top: 30px; }
+  .thanks-foot {
+    margin-top: 40px;
+    padding-top: 14px;
+    border-top: 1px solid var(--line-soft);
+    font-size: 9.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body class="thanks-page">
+<main class="thanks">
+  <a class="thanks-brand" href="index.html" aria-label="Thiru — back to the portfolio">
+    <span class="brand-name">Thiru</span>
+    <span>Cloud architect</span>
+  </a>
+
+  <p class="eyebrow">Meeting request</p>
+  <h1>Request received.</h1>
+  <p class="thanks-lede">Thanks &mdash; your meeting request is on its way to Thiru. You&rsquo;ll get a reply at the email you gave, with a Teams invite or an alternative time.</p>
+  <p class="thanks-note">Need to add something? Write to <a href="mailto:gthiru0104@gmail.com">gthiru0104@gmail.com</a>.</p>
+  <a class="btn btn-primary" href="index.html#contact">Back to the portfolio</a>
+  <p class="thanks-foot">Thiru &middot; Cloud architect &amp; agentic AI specialist &middot; United Kingdom</p>
+</main>
+</body>
+</html>
