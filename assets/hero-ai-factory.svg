@@ -1,0 +1,254 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" width="900" height="1100" role="img" aria-label="An illustration of a compact DGX-Spark-class AI supercomputer in a sunlit AI factory, with a knowledge graph of agent nodes above it.">
+  <defs>
+    <linearGradient id="paperV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8F3E7"/>
+      <stop offset="0.6" stop-color="#EFE9DA"/>
+      <stop offset="1" stop-color="#E6DFCE"/>
+    </linearGradient>
+    <radialGradient id="sunV" cx="0.76" cy="0.02" r="0.7">
+      <stop offset="0" stop-color="#FFF7E2" stop-opacity="0.95"/>
+      <stop offset="0.55" stop-color="#FFF3D8" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#FFF3D8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nodeGlowV" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#C08A4E" stop-opacity="0.42"/>
+      <stop offset="0.55" stop-color="#C08A4E" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#C08A4E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="benchV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E9E2D1"/>
+      <stop offset="1" stop-color="#DDD5C1"/>
+    </linearGradient>
+    <linearGradient id="topV" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#33382F"/>
+      <stop offset="1" stop-color="#22261F"/>
+    </linearGradient>
+    <linearGradient id="frontV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#20251E"/>
+      <stop offset="1" stop-color="#141713"/>
+    </linearGradient>
+    <linearGradient id="sideV" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#262B23"/>
+      <stop offset="1" stop-color="#171B15"/>
+    </linearGradient>
+    <pattern id="grilleV" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#C08A4E" stroke-width="1.4" opacity="0.6"/>
+      <line x1="0" y1="3.5" x2="7" y2="3.5" stroke="#8E5F33" stroke-width="0.7" opacity="0.35"/>
+    </pattern>
+    <filter id="softV" x="-50%" y="-100%" width="200%" height="300%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="softerV" x="-50%" y="-100%" width="200%" height="300%">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="1100" fill="url(#paperV)"/>
+  <rect width="900" height="1100" fill="url(#sunV)"/>
+
+  <!-- drafting grid -->
+  <g stroke="#171B15" stroke-opacity="0.05" stroke-width="1">
+    <path d="M60 120V900M120 120V900M180 120V900M240 120V900M300 120V900M360 120V900M420 120V900M480 120V900M540 120V900M600 120V900M660 120V900M720 120V900M780 120V900M840 120V900"/>
+    <path d="M0 180H900M0 300H900M0 420H900M0 540H900M0 660H900M0 780H900M0 900H900"/>
+  </g>
+
+  <!-- tall windows -->
+  <g>
+    <rect x="24" y="140" width="220" height="600" fill="#FBF6E8" opacity="0.55"/>
+    <rect x="24" y="140" width="220" height="600" fill="none" stroke="#171B15" stroke-opacity="0.12"/>
+    <path d="M134 140V740M24 440H244" stroke="#171B15" stroke-opacity="0.1"/>
+  </g>
+  <g>
+    <rect x="656" y="140" width="220" height="600" fill="#FBF6E8" opacity="0.55"/>
+    <rect x="656" y="140" width="220" height="600" fill="none" stroke="#171B15" stroke-opacity="0.12"/>
+    <path d="M766 140V740M656 440H876" stroke="#171B15" stroke-opacity="0.1"/>
+  </g>
+
+  <!-- left rack -->
+  <g stroke="#171B15" stroke-opacity="0.2" stroke-width="1.4" fill="none">
+    <path d="M20 360V880M190 360V880"/>
+    <path d="M20 440H190M20 570H190M20 700H190M20 830H190"/>
+  </g>
+  <g opacity="0.5">
+    <g fill="#252A22">
+      <rect x="34" y="396" width="48" height="40" rx="3"/>
+      <rect x="86" y="396" width="48" height="40" rx="3"/>
+      <rect x="138" y="396" width="48" height="40" rx="3"/>
+      <rect x="34" y="526" width="48" height="40" rx="3"/>
+      <rect x="86" y="526" width="48" height="40" rx="3"/>
+      <rect x="138" y="526" width="48" height="40" rx="3"/>
+      <rect x="34" y="656" width="48" height="40" rx="3"/>
+      <rect x="86" y="656" width="48" height="40" rx="3"/>
+      <rect x="138" y="656" width="48" height="40" rx="3"/>
+      <rect x="34" y="786" width="48" height="40" rx="3"/>
+      <rect x="86" y="786" width="48" height="40" rx="3"/>
+      <rect x="138" y="786" width="48" height="40" rx="3"/>
+    </g>
+    <g fill="#C08A4E" opacity="0.7">
+      <rect x="40" y="428" width="36" height="2"/>
+      <rect x="92" y="428" width="36" height="2"/>
+      <rect x="144" y="428" width="36" height="2"/>
+      <rect x="40" y="558" width="36" height="2"/>
+      <rect x="92" y="558" width="36" height="2"/>
+      <rect x="144" y="558" width="36" height="2"/>
+      <rect x="40" y="688" width="36" height="2"/>
+      <rect x="92" y="688" width="36" height="2"/>
+      <rect x="144" y="688" width="36" height="2"/>
+      <rect x="40" y="818" width="36" height="2"/>
+      <rect x="92" y="818" width="36" height="2"/>
+      <rect x="144" y="818" width="36" height="2"/>
+    </g>
+    <g fill="#8FA078">
+      <circle cx="76" cy="404" r="1.8"/>
+      <circle cx="128" cy="404" r="1.8"/>
+      <circle cx="180" cy="404" r="1.8"/>
+      <circle cx="76" cy="534" r="1.8"/>
+      <circle cx="128" cy="534" r="1.8"/>
+      <circle cx="180" cy="534" r="1.8"/>
+      <circle cx="76" cy="664" r="1.8"/>
+      <circle cx="128" cy="664" r="1.8"/>
+      <circle cx="180" cy="664" r="1.8"/>
+      <circle cx="76" cy="794" r="1.8"/>
+      <circle cx="128" cy="794" r="1.8"/>
+      <circle cx="180" cy="794" r="1.8"/>
+    </g>
+  </g>
+
+  <!-- right rack -->
+  <g stroke="#171B15" stroke-opacity="0.2" stroke-width="1.4" fill="none">
+    <path d="M710 360V880M880 360V880"/>
+    <path d="M710 440H880M710 570H880M710 700H880M710 830H880"/>
+  </g>
+  <g opacity="0.5">
+    <g fill="#252A22">
+      <rect x="724" y="396" width="48" height="40" rx="3"/>
+      <rect x="776" y="396" width="48" height="40" rx="3"/>
+      <rect x="828" y="396" width="48" height="40" rx="3"/>
+      <rect x="724" y="526" width="48" height="40" rx="3"/>
+      <rect x="776" y="526" width="48" height="40" rx="3"/>
+      <rect x="828" y="526" width="48" height="40" rx="3"/>
+      <rect x="724" y="656" width="48" height="40" rx="3"/>
+      <rect x="776" y="656" width="48" height="40" rx="3"/>
+      <rect x="828" y="656" width="48" height="40" rx="3"/>
+      <rect x="724" y="786" width="48" height="40" rx="3"/>
+      <rect x="776" y="786" width="48" height="40" rx="3"/>
+      <rect x="828" y="786" width="48" height="40" rx="3"/>
+    </g>
+    <g fill="#C08A4E" opacity="0.7">
+      <rect x="730" y="428" width="36" height="2"/>
+      <rect x="782" y="428" width="36" height="2"/>
+      <rect x="834" y="428" width="36" height="2"/>
+      <rect x="730" y="558" width="36" height="2"/>
+      <rect x="782" y="558" width="36" height="2"/>
+      <rect x="834" y="558" width="36" height="2"/>
+      <rect x="730" y="688" width="36" height="2"/>
+      <rect x="782" y="688" width="36" height="2"/>
+      <rect x="834" y="688" width="36" height="2"/>
+      <rect x="730" y="818" width="36" height="2"/>
+      <rect x="782" y="818" width="36" height="2"/>
+      <rect x="834" y="818" width="36" height="2"/>
+    </g>
+    <g fill="#8FA078">
+      <circle cx="766" cy="404" r="1.8"/>
+      <circle cx="818" cy="404" r="1.8"/>
+      <circle cx="870" cy="404" r="1.8"/>
+      <circle cx="766" cy="534" r="1.8"/>
+      <circle cx="818" cy="534" r="1.8"/>
+      <circle cx="870" cy="534" r="1.8"/>
+      <circle cx="766" cy="664" r="1.8"/>
+      <circle cx="818" cy="664" r="1.8"/>
+      <circle cx="870" cy="664" r="1.8"/>
+      <circle cx="766" cy="794" r="1.8"/>
+      <circle cx="818" cy="794" r="1.8"/>
+      <circle cx="870" cy="794" r="1.8"/>
+    </g>
+  </g>
+
+  <!-- light shaft -->
+  <path d="M700 0H900V900H560Z" fill="#FFF7E2" opacity="0.2"/>
+
+  <!-- agent graph -->
+  <circle cx="450" cy="300" r="170" fill="none" stroke="#171B15" stroke-opacity="0.12" stroke-dasharray="2 7"/>
+  <circle cx="450" cy="300" r="145" fill="url(#nodeGlowV)"/>
+  <g stroke="#C08A4E" stroke-opacity="0.65" stroke-width="1.2" fill="none">
+    <path d="M450 300L360 220M450 300L545 205M450 300L330 365M450 300L575 368M450 300L450 155M450 300L620 290M450 300L295 275M450 300L480 425"/>
+    <path d="M360 220L450 155M545 205L450 155M330 365L360 220M575 368L545 205M480 425L330 365M575 368L480 425"/>
+  </g>
+  <g>
+    <circle cx="450" cy="300" r="11" fill="#C08A4E"/>
+    <circle cx="450" cy="300" r="22" fill="none" stroke="#C08A4E" stroke-opacity="0.35"/>
+    <circle cx="360" cy="220" r="5.5" fill="#F8F3E7" stroke="#C08A4E" stroke-width="1.2"/>
+    <circle cx="545" cy="205" r="5" fill="#F8F3E7" stroke="#C08A4E" stroke-width="1.2"/>
+    <circle cx="330" cy="365" r="4.5" fill="#F8F3E7" stroke="#C08A4E" stroke-width="1.2"/>
+    <circle cx="575" cy="368" r="5" fill="#F8F3E7" stroke="#C08A4E" stroke-width="1.2"/>
+    <circle cx="450" cy="155" r="4" fill="#F8F3E7" stroke="#C08A4E" stroke-width="1.2"/>
+    <circle cx="620" cy="290" r="3.5" fill="#5E6C4B"/>
+    <circle cx="295" cy="275" r="3.5" fill="#5E6C4B"/>
+    <circle cx="480" cy="425" r="4" fill="#F8F3E7" stroke="#C08A4E" stroke-width="1.2"/>
+  </g>
+  <path d="M450 430V570" stroke="#C08A4E" stroke-opacity="0.35" stroke-dasharray="2 8"/>
+
+  <!-- workbench -->
+  <rect x="0" y="870" width="900" height="230" fill="url(#benchV)"/>
+  <path d="M0 870H900" stroke="#171B15" stroke-opacity="0.22" stroke-width="1.4"/>
+  <path d="M0 886H900" stroke="#171B15" stroke-opacity="0.06"/>
+  <ellipse cx="450" cy="895" rx="285" ry="28" fill="#C08A4E" opacity="0.1" filter="url(#softV)"/>
+
+  <!-- device shadow -->
+  <ellipse cx="450" cy="864" rx="260" ry="17" fill="#171B15" opacity="0.16" filter="url(#softV)"/>
+  <ellipse cx="450" cy="872" rx="330" ry="36" fill="#171B15" opacity="0.08" filter="url(#softerV)"/>
+  <ellipse cx="450" cy="862" rx="290" ry="18" fill="#FFF7E2" opacity="0.45" filter="url(#softV)"/>
+
+  <!-- compact AI system -->
+  <g>
+    <polygon points="270,620 340,570 700,570 630,620" fill="url(#topV)"/>
+    <path d="M270 620L630 620" stroke="#C08A4E" stroke-opacity="0.7" stroke-width="1.4"/>
+    <polygon points="630,620 700,570 700,800 630,850" fill="url(#sideV)"/>
+    <path d="M630 620V850" stroke="#0E100D" stroke-opacity="0.6"/>
+    <g stroke="#171B15" stroke-opacity="0.35" stroke-width="1.1">
+      <path d="M652 655H690M652 671H690M652 687H690M652 703H690"/>
+    </g>
+    <rect x="270" y="620" width="360" height="230" rx="18" fill="url(#frontV)"/>
+    <rect x="270" y="620" width="360" height="230" rx="18" fill="none" stroke="#0E100D" stroke-opacity="0.7" stroke-width="1.5"/>
+    <rect x="294" y="640" width="312" height="160" rx="10" fill="url(#grilleV)"/>
+    <rect x="294" y="640" width="312" height="160" rx="10" fill="none" stroke="#C08A4E" stroke-opacity="0.65" stroke-width="1.2"/>
+    <rect x="294" y="640" width="312" height="160" rx="10" fill="#171B15" opacity="0.08"/>
+    <path d="M306 648H594" stroke="#0E100D" stroke-opacity="0.45" stroke-width="5"/>
+    <circle cx="600" cy="833" r="4" fill="#8FA078"/>
+    <circle cx="618" cy="833" r="3.4" fill="#C08A4E"/>
+    <g stroke="#171B15" stroke-opacity="0.35" stroke-width="1.4">
+      <path d="M320 595L660 595"/>
+      <path d="M330 605L665 605"/>
+      <path d="M340 615L670 615"/>
+      <path d="M350 625L675 625"/>
+    </g>
+    <path d="M340 570L270 620" stroke="#FFF7E2" stroke-opacity="0.18" stroke-width="2"/>
+  </g>
+
+  <!-- cables -->
+  <path d="M700 800C750 820 780 850 840 870" fill="none" stroke="#171B15" stroke-opacity="0.28" stroke-width="2"/>
+  <path d="M700 818C760 838 800 860 870 886" fill="none" stroke="#171B15" stroke-opacity="0.16" stroke-width="1.4"/>
+  <path d="M270 820C230 840 210 858 160 870" fill="none" stroke="#171B15" stroke-opacity="0.2" stroke-width="1.6"/>
+
+  <!-- ferns -->
+  <g stroke="#5E6C4B" fill="none" stroke-linecap="round">
+    <path d="M90 1100C92 1030 70 980 38 930" stroke-width="1.6" opacity="0.45"/>
+    <path d="M76 1000C58 990 46 992 32 1000M82 1022C62 1014 50 1016 38 1024M88 1044C68 1038 56 1042 44 1050M94 1066C74 1062 62 1066 50 1074" stroke-width="1" opacity="0.35"/>
+    <path d="M160 1100C156 1040 138 1006 112 978" stroke-width="1.3" opacity="0.35"/>
+    <path d="M146 1054C128 1046 116 1048 106 1056M152 1074C134 1068 122 1070 112 1078" stroke-width="0.9" opacity="0.3"/>
+  </g>
+  <g stroke="#5E6C4B" fill="none" stroke-linecap="round">
+    <path d="M820 1100C818 1030 840 980 872 930" stroke-width="1.6" opacity="0.4"/>
+    <path d="M834 1000C852 990 864 992 878 1000M828 1022C848 1014 860 1016 872 1024M822 1044C842 1038 854 1042 866 1050M816 1066C836 1062 848 1066 860 1074" stroke-width="1" opacity="0.3"/>
+  </g>
+
+  <!-- dust -->
+  <g fill="#FFF9E9">
+    <circle cx="700" cy="120" r="2" opacity="0.65"/>
+    <circle cx="770" cy="70" r="1.4" opacity="0.55"/>
+    <circle cx="650" cy="200" r="1.7" opacity="0.45"/>
+    <circle cx="800" cy="250" r="2.1" opacity="0.4"/>
+    <circle cx="590" cy="90" r="1.2" opacity="0.5"/>
+    <circle cx="840" cy="360" r="1.5" opacity="0.35"/>
+  </g>
+</svg>
