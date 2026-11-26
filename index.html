@@ -392,7 +392,7 @@
         </div>
 
         <div class="loop-figure">
-          <svg class="loop-svg" viewBox="0 0 1200 520" role="img" aria-labelledby="loop-title loop-desc">
+          <svg class="loop-svg" viewBox="0 0 1200 470" role="img" aria-labelledby="loop-title loop-desc">
             <title id="loop-title">The LangGraph execution loop</title>
             <desc id="loop-desc">The knowledge graph feeds the intelligence layer, which acts through governed tools. Outcomes, approvals and audit events return to the knowledge graph. LangGraph orchestrates every step.</desc>
 
@@ -402,54 +402,69 @@
               </marker>
             </defs>
 
-            <circle class="loop-orbit" cx="600" cy="260" r="212"/>
-
             <g>
-              <rect class="loop-node-box" x="46" y="208" width="256" height="104"/>
-              <text class="node-index" x="66" y="236">01 / MEMORY</text>
-              <text class="node-title" x="66" y="262">Knowledge graph</text>
-              <text class="node-copy" x="66" y="284">Neo4j &middot; relationships &middot; history</text>
-              <text class="node-copy" x="66" y="301">FAISS &middot; nearest-case recall</text>
+              <rect class="loop-node-box" x="40" y="196" width="250" height="88"/>
+              <text class="node-index" x="60" y="216">01 / MEMORY</text>
+              <text class="node-title" x="60" y="238">Knowledge graph</text>
+              <text class="node-copy" x="60" y="258">Neo4j &middot; relationships &middot; history</text>
+              <text class="node-copy" x="60" y="274">FAISS &middot; nearest-case recall</text>
+              <g class="node-icon" transform="translate(254 206)">
+                <circle cx="4" cy="5" r="2.1"/>
+                <circle cx="14" cy="3" r="2.1"/>
+                <circle cx="11" cy="14" r="2.1"/>
+                <path d="M5.7 6.2L12.2 3.8M5.8 6.5L10.2 12.4M12.8 5L11.4 12"/>
+              </g>
             </g>
 
             <g>
-              <rect class="loop-node-box" x="472" y="28" width="256" height="104"/>
-              <text class="node-index" x="492" y="56">02 / REASONING</text>
-              <text class="node-title" x="492" y="82">Intelligence layer</text>
-              <text class="node-copy" x="492" y="104">LLM planning &middot; tool choice</text>
-              <text class="node-copy" x="492" y="121">policy checks before action</text>
+              <rect class="loop-node-box" x="475" y="24" width="250" height="88"/>
+              <text class="node-index" x="495" y="44">02 / REASONING</text>
+              <text class="node-title" x="495" y="66">Intelligence layer</text>
+              <text class="node-copy" x="495" y="86">LLM planning &middot; tool choice</text>
+              <text class="node-copy" x="495" y="102">policy checks before action</text>
+              <g class="node-icon" transform="translate(689 34)">
+                <path d="M9 2L16 6L9 10L2 6Z"/>
+                <path d="M2 10L9 14L16 10"/>
+              </g>
             </g>
 
             <g>
-              <rect class="loop-node-box" x="898" y="208" width="256" height="104"/>
-              <text class="node-index" x="918" y="236">03 / ACTION</text>
-              <text class="node-title" x="918" y="262">Action</text>
-              <text class="node-copy" x="918" y="284">MCP tools &middot; human gate</text>
-              <text class="node-copy" x="918" y="301">audited writes only</text>
+              <rect class="loop-node-box" x="910" y="196" width="250" height="88"/>
+              <text class="node-index" x="930" y="216">03 / ACTION</text>
+              <text class="node-title" x="930" y="238">Action</text>
+              <text class="node-copy" x="930" y="258">MCP tools &middot; human gate</text>
+              <text class="node-copy" x="930" y="274">audited writes only</text>
+              <g class="node-icon" transform="translate(1124 206)">
+                <path d="M10 2L4 10H9L8 16L15 7H10Z"/>
+              </g>
             </g>
 
             <g>
-              <rect class="loop-node-box" x="472" y="388" width="256" height="104"/>
-              <text class="node-index" x="492" y="416">04 / LEARNING</text>
-              <text class="node-title" x="492" y="442">Feedback loop</text>
-              <text class="node-copy" x="492" y="464">outcomes &middot; approvals &middot; audit</text>
-              <text class="node-copy" x="492" y="481">written back to the graph</text>
+              <rect class="loop-node-box" x="475" y="358" width="250" height="88"/>
+              <text class="node-index" x="495" y="378">04 / LEARNING</text>
+              <text class="node-title" x="495" y="400">Feedback loop</text>
+              <text class="node-copy" x="495" y="420">outcomes &middot; approvals &middot; audit</text>
+              <text class="node-copy" x="495" y="436">written back to the graph</text>
+              <g class="node-icon" transform="translate(689 368)">
+                <path d="M14 6A6 6 0 1 0 15 11"/>
+                <path d="M14 2V6H10"/>
+              </g>
             </g>
 
-            <rect class="loop-core" x="486" y="204" width="228" height="112"/>
-            <text class="core-title" x="600" y="247" text-anchor="middle">LANGGRAPH</text>
-            <text class="core-meta" x="600" y="267" text-anchor="middle">STATE MACHINE</text>
-            <text class="core-copy" x="600" y="289" text-anchor="middle">routing &middot; checkpoints</text>
+            <rect class="loop-core" x="500" y="192" width="200" height="86"/>
+            <text class="core-title" x="600" y="226" text-anchor="middle">LANGGRAPH</text>
+            <text class="core-meta" x="600" y="244" text-anchor="middle">STATE MACHINE</text>
+            <text class="core-copy" x="600" y="261" text-anchor="middle">routing &middot; checkpoints</text>
 
-            <path class="loop-edge" d="M302 245C350 200 400 152 466 116" marker-end="url(#loop-arrow)"/>
-            <path class="loop-edge" d="M734 116C800 152 850 200 894 238" marker-end="url(#loop-arrow)"/>
-            <path class="loop-edge" d="M1000 312C980 380 850 430 734 436" marker-end="url(#loop-arrow)"/>
-            <path class="loop-edge" d="M472 436C380 430 320 380 306 318" marker-end="url(#loop-arrow)"/>
+            <path class="loop-edge" d="M292 232C345 198 392 146 466 106" marker-end="url(#loop-arrow)"/>
+            <path class="loop-edge" d="M728 106C804 146 850 198 904 230" marker-end="url(#loop-arrow)"/>
+            <path class="loop-edge" d="M1035 284C1015 338 900 392 728 400" marker-end="url(#loop-arrow)"/>
+            <path class="loop-edge" d="M475 400C395 394 335 352 296 290" marker-end="url(#loop-arrow)"/>
 
-            <text class="edge-label" x="365" y="172" text-anchor="middle">retrieve</text>
-            <text class="edge-label" x="818" y="172" text-anchor="middle">reason</text>
-            <text class="edge-label" x="858" y="400" text-anchor="middle">act</text>
-            <text class="edge-label" x="365" y="402" text-anchor="middle">write back</text>
+            <text class="edge-label" x="370" y="170" text-anchor="middle">retrieve</text>
+            <text class="edge-label" x="812" y="170" text-anchor="middle">reason</text>
+            <text class="edge-label" x="890" y="350" text-anchor="middle">act</text>
+            <text class="edge-label" x="370" y="364" text-anchor="middle">write back</text>
           </svg>
         </div>
 
