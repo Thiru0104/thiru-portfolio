@@ -909,14 +909,21 @@ a.project:focus-visible .project-arrow {
 .loop-svg { display: block; width: 100%; height: auto; }
 .loop-svg text { font-family: var(--font-serif); }
 .loop-node-box { fill: var(--paper-2); stroke: var(--line); stroke-width: 1; }
-.loop-orbit { fill: none; stroke: var(--line); stroke-dasharray: 2 7; }
 .loop-core { fill: var(--ink); }
 .loop-arrow-head { fill: var(--moss); }
 .loop-edge {
   fill: none;
   stroke: var(--moss);
-  stroke-width: 1.3;
+  stroke-width: 1.4;
   stroke-opacity: 0.85;
+}
+.node-icon {
+  fill: none;
+  stroke: var(--moss);
+  stroke-width: 1.2;
+  stroke-opacity: 0.85;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 .node-index {
   font-size: 9px;
@@ -925,7 +932,7 @@ a.project:focus-visible .project-arrow {
 }
 .node-title {
   font-family: var(--font-display);
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 600;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -940,13 +947,13 @@ a.project:focus-visible .project-arrow {
 }
 .core-title {
   font-family: var(--font-display);
-  font-size: 24px;
+  font-size: 21px;
   font-weight: 600;
   letter-spacing: 0.08em;
   fill: var(--paper);
 }
 .core-meta { font-size: 8px; letter-spacing: 0.24em; fill: var(--paper); opacity: 0.65; }
-.core-copy { font-size: 11px; fill: var(--paper); opacity: 0.75; }
+.core-copy { font-size: 10px; fill: var(--paper); opacity: 0.75; }
 
 .loop-notes {
   display: grid;
