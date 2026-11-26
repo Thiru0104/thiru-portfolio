@@ -14,10 +14,10 @@ styles.css          Design tokens, layout, components
 main.js             Navigation, reveals, active section, booking form
 thanks.html         Confirmation page after a booking request
 assets/             WebP images and SVG illustrations
-  hero-ai-factory.svg   hero: DGX Spark / AI factory
-  quantum-chip*.webp    featured AI processor
-  ai-factory.svg        contact band
-  portrait*.webp        profile photo
+  hero-ai-factory*.webp  hero: AI factory aisle (Pexels)
+  quantum-chip*.webp     featured AI processor
+  ai-factory.svg         contact: DGX Spark class
+  portrait*.webp         profile photo
 README.md
 ```
 
@@ -119,7 +119,7 @@ Confirm the titles, or remove the rows from the Toolkit section.
 
 **Accessibility:** skip link, semantic landmarks, one `h1`, visible focus rings, 44 px minimum controls, labelled form fields, inline errors plus an error summary, descriptive alt text, contrast checked to WCAG AA.
 
-**Imagery:** the processor macro was generated for this site; the hero and contact band are custom vector illustrations of a DGX-Spark-class system in an AI factory, with an agent graph in the hero. The portrait was supplied by Thiru. Replace `assets/hero-ai-factory.svg` or `assets/ai-factory.svg` with a real product photo whenever you have one.
+**Imagery:** the hero photograph is by **Brett Sayles** via [Pexels](https://www.pexels.com/photo/5408005/) (Pexels licence); the contact band is a custom vector illustration of a DGX-Spark-class system; the featured processor macro was generated for this site. The portrait was supplied by Thiru. Replace the hero photograph or the contact illustration with your own product photo whenever you have one.
 
 ---
 
