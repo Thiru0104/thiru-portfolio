@@ -15,7 +15,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;600;700&family=Spectral:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
-<link rel="preload" as="image" href="assets/hero-ai-factory.svg">
+<link rel="preload" as="image" href="assets/hero-ai-factory.webp" imagesrcset="assets/hero-ai-factory-900.webp 900w, assets/hero-ai-factory.webp 1400w" imagesizes="(min-width: 900px) 48vw, 100vw">
 <link rel="stylesheet" href="styles.css">
 <script>document.documentElement.classList.add('js');</script>
 </head>
@@ -90,10 +90,12 @@
         <div><dt>Focus</dt><dd>Agentic AI &amp; cloud</dd></div>
       </dl>
     </div>
-    <figure class="hero-media hero-media--art">
-      <img src="assets/hero-ai-factory.svg" width="900" height="1100" fetchpriority="high" decoding="async"
-           alt="An illustration of a compact DGX-Spark-class AI supercomputer on a workbench in a sunlit AI factory, with a knowledge graph of agent nodes above it.">
-      <figcaption>DGX Spark &mdash; an AI factory at desk scale.</figcaption>
+    <figure class="hero-media hero-media--framed">
+      <img src="assets/hero-ai-factory.webp"
+           srcset="assets/hero-ai-factory-900.webp 900w, assets/hero-ai-factory.webp 1400w"
+           sizes="(min-width: 900px) 48vw, 100vw" width="1400" height="2104" fetchpriority="high" decoding="async"
+           alt="A dim data-centre aisle lined with black server racks and red cabling, opening onto a bright corridor.">
+      <figcaption>AI factory &mdash; where the agents run.</figcaption>
     </figure>
   </section>
 
@@ -622,7 +624,7 @@
     <figure class="contact-media contact-media--art" data-reveal>
       <img src="assets/ai-factory.svg" width="1600" height="700" loading="lazy" decoding="async"
            alt="An illustration of a compact DGX-Spark-class AI system with a woven gold grille on a workbench in a sunlit AI factory, rows of compute units behind it.">
-      <figcaption class="factory-caption">AI factory <span>&middot; agentic systems</span></figcaption>
+      <figcaption class="factory-caption">DGX Spark class <span>&middot; AI factory</span></figcaption>
     </figure>
 
     <div class="wrap contact-wrap">
